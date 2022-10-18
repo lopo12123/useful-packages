@@ -33,6 +33,21 @@
         ]
     },
     {
+        "name": "react-hot-toast",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install react-hot-toast",
+        "github": "https://github.com/timolins/react-hot-toast",
+        "homepage": "https://react-hot-toast.com/",
+        "brief": "react toast 库",
+        "desc": "Smoking Hot React Notifications \uD83D\uDD25",
+        "keywords": [
+            "react",
+            "toast"
+        ]
+    },
+    {
         "name": "",
         "sort": [],
         "install": "",
