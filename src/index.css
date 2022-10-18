@@ -23,6 +23,7 @@ html, body {
     position: relative;
     width: 100vw;
     height: 100vh;
+    font-family: "Times New Roman", "Microsoft YaHei UI";
     overflow: hidden;
 }
 
@@ -31,4 +32,11 @@ html, body {
     width: 100%;
     height: 100%;
     overflow: auto;
+}
+
+#copy-adaptor {
+    position: absolute;
+    z-index: -1;
+    left: -200px;
+    top: -200px;
 }

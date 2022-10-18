@@ -1,6 +1,9 @@
 # useful-packages
 
-some useful packages
+_a store to record some useful packages,_  
+_and an online page to display it._
+
+[view online page](https://lopo12123.github.io/useful-packages)
 
 ``` ts
 interface PackageInfo {

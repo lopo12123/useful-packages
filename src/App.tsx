@@ -1,5 +1,6 @@
 import './App.css'
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
 import PackageBlock, { PackageInfo } from "./PackageBlock";
 
 type SearchTypeList = 'sort' | 'brief' | 'desc' | 'keywords'
@@ -23,11 +24,16 @@ function App() {
             })
             .catch(err => {
                 setIsLoading(false)
-                console.log(err)
+                console.error(err)
             })
     }, [])
 
-    const doFilter = () => {
+    const doFilter = useCallback(() => {
+        if(searchText.trim() === '') {
+            setDisplayList(packageList)
+            toast.success('[OK] 已重置')
+            return;
+        }
         if(searchType === 'sort' || searchType === 'keywords')
             setDisplayList(packageList.filter(item => {
                 for (let i = 0; i < item[searchType].length; i++) {
@@ -39,16 +45,16 @@ function App() {
             setDisplayList(packageList.filter(item => {
                 return (item[searchType] as string).includes(searchText)
             }))
-    }
+        toast.success('[OK] filtered!')
+    }, [ packageList, searchType, searchText ])
 
     return (
         <div className="app">
+            <input type="text" id="copy-adaptor"/>
+            <Toaster/>
             <div className="search-box">
                 <select className="search-box__radio" value={ searchType }
-                        onChange={ e => {
-                            setSearchType(e.target.value as SearchTypeList)
-                            doFilter()
-                        } }>
+                        onChange={ e => setSearchType(e.target.value as SearchTypeList) }>
                     <option value="sort">分类</option>
                     <option value="brief">收录自述</option>
                     <option value="desc">package.json 描述</option>
