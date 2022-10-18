@@ -18,24 +18,19 @@
         ]
     },
     {
-        "name": "",
-        "sort": [],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
-        "keywords": []
-    },
-    {
-        "name": "",
-        "sort": [],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
-        "keywords": []
+        "name": "radix-ui",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install @radix-ui/{package_name}",
+        "github": "https://github.com/radix-ui/primitives",
+        "homepage": "https://www.radix-ui.com/",
+        "brief": "react ui库",
+        "desc": "An open-source UI component library for building high-quality, accessible design systems and web apps.",
+        "keywords": [
+            "react",
+            "ui"
+        ]
     },
     {
         "name": "",
