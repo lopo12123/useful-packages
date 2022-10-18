@@ -1,0 +1,50 @@
+[
+    {
+        "name": "react-search-box",
+        "sort": [
+            "react"
+        ],
+        "install": "npm i react-search-box",
+        "github": "https://github.com/ghoshnirmalya/react-search-box",
+        "homepage": "https://nirmalyaghosh.com/guides/react-search-box",
+        "brief": "react 自动补全搜索框",
+        "desc": "An autocomplete search box built with and for React",
+        "keywords": [
+            "react",
+            "autocomplete",
+            "search",
+            "自动补全",
+            "搜索"
+        ]
+    },
+    {
+        "name": "",
+        "sort": [],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": []
+    },
+    {
+        "name": "",
+        "sort": [],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": []
+    },
+    {
+        "name": "",
+        "sort": [],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": []
+    }
+]

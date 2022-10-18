@@ -1,9 +1,6 @@
-# useful-packages
+import "./PackageBlock.css";
 
-some useful packages
-
-``` ts
-interface PackageInfo {
+export interface PackageInfo {
     // name of the package
     name: string
     // sort of the package
@@ -21,4 +18,13 @@ interface PackageInfo {
     // 关键字
     keywords: string[]
 }
-```
+
+export default function PackageBlock({ idx, detail }: { idx: number, detail: PackageInfo }) {
+
+    return (
+        <div className="package-block">
+            <div className="idx-affix">{ idx + 1 }</div>
+            <code>{ JSON.stringify(detail, null, 4) }</code>
+        </div>
+    )
+}
