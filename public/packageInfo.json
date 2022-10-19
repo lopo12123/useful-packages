@@ -48,6 +48,32 @@
         ]
     },
     {
+        "name": "@ericblade/quagga2",
+        "sort": [
+            "node"
+        ],
+        "install": "npm install --save @ericblade/quagga2",
+        "github": "https://github.com/ericblade/quagga2",
+        "homepage": "https://github.com/ericblade/quagga2",
+        "brief": "条码解析",
+        "desc": "An advanced barcode-scanner written in Javascript and TypeScript - Continuation from",
+        "keywords": [
+            "code",
+            "barcode",
+            "条码"
+        ]
+    },
+    {
+        "name": "",
+        "sort": [],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": []
+    },
+    {
         "name": "",
         "sort": [],
         "install": "",
