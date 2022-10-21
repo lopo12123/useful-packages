@@ -80,6 +80,36 @@
         ]
     },
     {
+        "name": "react-scroll-parallax",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install react-scroll-parallax",
+        "github": "https://github.com/jscottsmith/react-scroll-parallax",
+        "homepage": "https://react-scroll-parallax.damnthat.tv/docs/intro",
+        "brief": "多层级视差滚动效果",
+        "desc": "React hooks and components to create parallax scroll effects for banners, images or any other DOM elements.",
+        "keywords": [
+            "react",
+            "hook",
+            "parallax",
+            "animation",
+            "scroll",
+            "滚动",
+            "视差"
+        ]
+    },
+    {
+        "name": "",
+        "sort": [],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": []
+    },
+    {
         "name": "",
         "sort": [],
         "install": "",
