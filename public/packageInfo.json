@@ -64,14 +64,20 @@
         ]
     },
     {
-        "name": "",
-        "sort": [],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
-        "keywords": []
+        "name": "better-scroll",
+        "sort": [
+            "react",
+            "vue"
+        ],
+        "install": "npm install @better-scroll/core # only CoreScroll",
+        "github": "https://github.com/ustbhuangyi/better-scroll",
+        "homepage": "https://better-scroll.github.io/docs/en-US/",
+        "brief": "滚动控制",
+        "desc": "inspired by iscroll, and it supports more features and has a better scroll perfermance",
+        "keywords": [
+            "scroll",
+            "滚动"
+        ]
     },
     {
         "name": "",
