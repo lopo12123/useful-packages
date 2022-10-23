@@ -100,14 +100,21 @@
         ]
     },
     {
-        "name": "",
-        "sort": [],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
-        "keywords": []
+        "name": "react-fast-marquee",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install react-fast-marquee",
+        "github": "https://github.com/justin-chu/react-fast-marquee",
+        "homepage": "https://www.react-fast-marquee.com/",
+        "brief": "横幅滚动, 弃用的 marquee 标签的替代方案",
+        "desc": "A lightweight React component that utilizes the power of CSS animations to create silky smooth marquees.",
+        "keywords": [
+            "react",
+            "marquee",
+            "滚动",
+            "横幅"
+        ]
     },
     {
         "name": "",
