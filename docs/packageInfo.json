@@ -66,8 +66,7 @@
     {
         "name": "better-scroll",
         "sort": [
-            "react",
-            "vue"
+            "vanilla"
         ],
         "install": "npm install @better-scroll/core # only CoreScroll",
         "github": "https://github.com/ustbhuangyi/better-scroll",
@@ -114,6 +113,53 @@
             "marquee",
             "滚动",
             "横幅"
+        ]
+    },
+    {
+        "name": "party-js",
+        "sort": [
+            "vanilla"
+        ],
+        "install": "npm install party-js",
+        "github": "https://github.com/yiliansource/party-js",
+        "homepage": "https://party.js.org/",
+        "brief": "撒花特效",
+        "desc": "A JavaScript library to brighten up your user's site experience with visual effects!",
+        "keywords": [
+            "party",
+            "撒花"
+        ]
+    },
+    {
+        "name": "fireworks-js",
+        "sort": [
+            "vanilla"
+        ],
+        "install": "npm install fireworks-js",
+        "github": "https://github.com/crashmax-dev/fireworks-js",
+        "homepage": "https://fireworks.js.org/",
+        "brief": "可交互的烟花特效",
+        "desc": "A simple fireworks library! Ready to use components available for React, Vue 3, Svelte, Angular, Preact, Solid, and Web Components.",
+        "keywords": [
+            "firework",
+            "烟花"
+        ]
+    },
+    {
+        "name": "atropos",
+        "sort": [
+            "vanilla"
+        ],
+        "install": "npm install atropos",
+        "github": "https://github.com/nolimits4web/atropos/",
+        "homepage": "https://atroposjs.com/",
+        "brief": "3D鼠标悬浮动态效果",
+        "desc": "Stunning touch-friendly 3D parallax hover effects",
+        "keywords": [
+            "hover",
+            "3d",
+            "悬浮",
+            "动效"
         ]
     },
     {
