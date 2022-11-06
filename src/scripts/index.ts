@@ -37,6 +37,6 @@ export interface PackageDetail {
 
 // 获取所有数据信息
 export const getPackageList = (): Promise<PackageDetail[]> => {
-    return fetch('/packageInfo.json')
+    return fetch('./packageInfo.json')
         .then(res => res.json())
 }

@@ -205,7 +205,7 @@ to {
   > * {
     pointer-events: auto;
   }
-`,Nr=16,Rp=({reverseOrder:e,position:t="top-center",toastOptions:n,gutter:r,children:l,containerStyle:o,containerClassName:i})=>{let{toasts:u,handlers:s}=op(n);return F.exports.createElement("div",{style:{position:"fixed",zIndex:9999,top:Nr,left:Nr,right:Nr,bottom:Nr,pointerEvents:"none",...o},className:i,onMouseEnter:s.startPause,onMouseLeave:s.endPause},u.map(a=>{let m=a.position||t,h=s.calculateOffset(a,{reverseOrder:e,gutter:r,defaultPosition:t}),p=Lp(m,h);return F.exports.createElement(zp,{id:a.id,key:a.id,onHeightUpdate:s.updateHeight,className:a.visible?Tp:"",style:p},a.type==="custom"?dl(a.message,a):l?l(a):F.exports.createElement(Pp,{toast:a,position:m}))}))},Sc=ge;const Op=()=>fetch("/packageInfo.json").then(e=>e.json());var Zi={exports:{}},Ll={};/**
+`,Nr=16,Rp=({reverseOrder:e,position:t="top-center",toastOptions:n,gutter:r,children:l,containerStyle:o,containerClassName:i})=>{let{toasts:u,handlers:s}=op(n);return F.exports.createElement("div",{style:{position:"fixed",zIndex:9999,top:Nr,left:Nr,right:Nr,bottom:Nr,pointerEvents:"none",...o},className:i,onMouseEnter:s.startPause,onMouseLeave:s.endPause},u.map(a=>{let m=a.position||t,h=s.calculateOffset(a,{reverseOrder:e,gutter:r,defaultPosition:t}),p=Lp(m,h);return F.exports.createElement(zp,{id:a.id,key:a.id,onHeightUpdate:s.updateHeight,className:a.visible?Tp:"",style:p},a.type==="custom"?dl(a.message,a):l?l(a):F.exports.createElement(Pp,{toast:a,position:m}))}))},Sc=ge;const Op=()=>fetch("./packageInfo.json").then(e=>e.json());var Zi={exports:{}},Ll={};/**
  * @license React
  * react-jsx-runtime.production.min.js
  *
