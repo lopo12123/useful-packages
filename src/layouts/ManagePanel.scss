@@ -4,9 +4,64 @@
     height: 100%;
     padding: 20px;
     border-right: solid 1px #bd93f9;
+    font-family: "Curlz MT", fantasy;
     overflow: hidden auto;
 
-    &_btns {
+    &_btn-group {
+        margin: 16px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
 
+        .btn {
+            width: 40%;
+            height: 30px;
+            border: solid 1px #50fa7b80;
+            border-radius: 5px;
+            color: #bd93f9;
+            cursor: pointer;
+            line-height: 30px;
+            text-align: center;
+            transition: all 0.3s;
+
+            &:hover {
+                border-color: #bd93f980;
+                color: #50fa7b;
+            }
+        }
+    }
+
+    &_sort_group {
+        height: 30px;
+        margin: 16px 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        .title {
+            width: 60px;
+            color: #bd93f980;
+        }
+
+        .insert {
+            width: calc(100% - 60px);
+            height: 100%;
+            border: none;
+            border-bottom: solid 1px #bd93f9;
+            background: #282a36;
+            outline: none;
+            color: #50fa7b80;
+        }
+
+        .dropdown {
+            width: calc(100% - 60px);
+            height: 100%;
+            border: none;
+            border-bottom: solid 1px #bd93f9;
+            background: #282a36;
+            outline: none;
+            color: #50fa7b80;
+            cursor: pointer;
+        }
     }
 }

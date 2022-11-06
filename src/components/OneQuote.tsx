@@ -3,7 +3,9 @@ export default function OneQuote() {
         <div className="font-dark"
              style={ {
                  height: '80px',
-                 fontFamily: 'cursive',
+                 color: '#ff79c6',
+                 fontSize: 18,
+                 fontFamily: 'Curlz MT',
                  textIndent: '1rem',
                  userSelect: 'none'
              } }>
