@@ -31,7 +31,7 @@ export default function ManagePanel({ onSort }: { onSort: (config: ISortConfig) 
 
     return (
         <div className="manage-panel">
-            <OneQuote/>
+            {/*<OneQuote/>*/}
             <div className="manage-panel_btn-group">
                 <div className="btn" onClick={ doReset }>RESET</div>
                 <div className="btn" onClick={ doSearch }>SEARCH</div>

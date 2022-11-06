@@ -20,7 +20,7 @@ export interface PackageDetail {
     // name of the package
     name: string
     // sort of the package
-    sort: ('vanilla' | 'react' | 'vue' | 'node')[]
+    sort: string[]  // ('vanilla' | 'react' | 'vue' | 'node')
     // script to install (in npm, yarn as well)
     install: string
     // repository url
