@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 *::-webkit-scrollbar {
@@ -23,7 +24,8 @@ html, body {
     position: relative;
     width: 100vw;
     height: 100vh;
-    font-family: "Times New Roman", "Microsoft YaHei UI";
+    background: #282a36;
+    color: #f8f8f2;
     overflow: hidden;
 }
 
@@ -35,8 +37,24 @@ html, body {
 }
 
 #copy-adaptor {
-    position: absolute;
+    position: fixed;
     z-index: -1;
     left: -200px;
     top: -200px;
+}
+
+.font-dark {
+    color: #6272a4;
+}
+
+.font-yellow {
+    color: #f1fa8c;
+}
+
+.font-pink {
+    color: #ff79c6;
+}
+
+.font-green {
+    color: #50fa7b;
 }
