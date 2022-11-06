@@ -66,7 +66,7 @@
     {
         "name": "better-scroll",
         "sort": [
-            "vanilla"
+            "vanilla", "react", "vue"
         ],
         "install": "npm install @better-scroll/core # only CoreScroll",
         "github": "https://github.com/ustbhuangyi/better-scroll",
@@ -118,7 +118,7 @@
     {
         "name": "party-js",
         "sort": [
-            "vanilla"
+            "vanilla", "react", "vue"
         ],
         "install": "npm install party-js",
         "github": "https://github.com/yiliansource/party-js",
@@ -133,7 +133,7 @@
     {
         "name": "fireworks-js",
         "sort": [
-            "vanilla"
+            "vanilla", "react", "vue"
         ],
         "install": "npm install fireworks-js",
         "github": "https://github.com/crashmax-dev/fireworks-js",
@@ -148,7 +148,7 @@
     {
         "name": "atropos",
         "sort": [
-            "vanilla"
+            "vanilla", "react", "vue"
         ],
         "install": "npm install atropos",
         "github": "https://github.com/nolimits4web/atropos/",
