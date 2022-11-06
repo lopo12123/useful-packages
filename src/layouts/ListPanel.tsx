@@ -1,4 +1,3 @@
-import "./ListPanel.scss";
 import { ISortConfig } from "./ManagePanel";
 import { useEffect, useState } from "react";
 import { getPackageList, PackageDetail } from "../scripts";
@@ -12,8 +11,9 @@ export default function ListPanel({ config }: { config: ISortConfig }) {
     useEffect(() => {
         getPackageList()
             .then(list => {
-                setStoreList(list)
-                setDisplayList(list)
+                const validPackages = list.filter(item => item.name !== '')
+                setStoreList(validPackages)
+                setDisplayList(validPackages)
             })
             .catch(err => {
                 toast.error(err.toString)
@@ -22,11 +22,6 @@ export default function ListPanel({ config }: { config: ISortConfig }) {
 
     useEffect(() => {
         const { name, sort, keyword, desc } = config
-
-        if(name.trim() === '' &&
-            sort.trim() === '' &&
-            keyword.trim() === '' &&
-            desc.trim() === '') return
 
         setDisplayList(storeList.filter(item => {
             return (name.trim() === '' || item.name.includes(name))
@@ -37,7 +32,13 @@ export default function ListPanel({ config }: { config: ISortConfig }) {
     }, [ config ])
 
     return (
-        <div className="list-panel">
+        <div style={ {
+            position: 'relative',
+            width: 'calc(100% - 300px)',
+            height: '100%',
+            padding: '20px',
+            overflow: 'auto'
+        } }>
             {
                 displayList.map((packageInfo, idx) =>
                     <PackageCard key={ idx } detail={ packageInfo }/>)
