@@ -393,6 +393,101 @@
         ]
     },
     {
+        "name": "handsontable",
+        "sort": [
+            "vanilla",
+            "react",
+            "vue"
+        ],
+        "install": "npm install handsontable",
+        "github": "https://github.com/handsontable/handsontable",
+        "homepage": "https://handsontable.com/",
+        "brief": "电子表格展示库",
+        "desc": "JavaScript data grid with a spreadsheet look & feel. Works with React, Angular, and Vue. Supported by the Handsontable team ⚡",
+        "keywords": [
+            "table",
+            "excel",
+            "表格"
+        ]
+    },
+    {
+        "name": "satori",
+        "sort": [
+            "vanilla",
+            "react",
+            "vue"
+        ],
+        "install": "npm install satori",
+        "github": "https://github.com/vercel/satori",
+        "homepage": "https://og-playground.vercel.app/",
+        "brief": "html转换为svg",
+        "desc": "Enlightened library to convert HTML and CSS to SVG",
+        "keywords": [
+            "svg",
+            "图片"
+        ]
+    },
+    {
+        "name": "",
+        "sort": [
+        ],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": [
+        ]
+    },
+    {
+        "name": "",
+        "sort": [
+        ],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": [
+        ]
+    },
+    {
+        "name": "",
+        "sort": [
+        ],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": [
+        ]
+    },
+    {
+        "name": "",
+        "sort": [
+        ],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": [
+        ]
+    },
+    {
+        "name": "",
+        "sort": [
+        ],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": [
+        ]
+    },
+    {
         "name": "",
         "sort": [
         ],
