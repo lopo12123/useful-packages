@@ -66,7 +66,9 @@
     {
         "name": "better-scroll",
         "sort": [
-            "vanilla", "react", "vue"
+            "vanilla",
+            "react",
+            "vue"
         ],
         "install": "npm install @better-scroll/core # only CoreScroll",
         "github": "https://github.com/ustbhuangyi/better-scroll",
@@ -118,7 +120,9 @@
     {
         "name": "party-js",
         "sort": [
-            "vanilla", "react", "vue"
+            "vanilla",
+            "react",
+            "vue"
         ],
         "install": "npm install party-js",
         "github": "https://github.com/yiliansource/party-js",
@@ -133,7 +137,9 @@
     {
         "name": "fireworks-js",
         "sort": [
-            "vanilla", "react", "vue"
+            "vanilla",
+            "react",
+            "vue"
         ],
         "install": "npm install fireworks-js",
         "github": "https://github.com/crashmax-dev/fireworks-js",
@@ -148,7 +154,9 @@
     {
         "name": "atropos",
         "sort": [
-            "vanilla", "react", "vue"
+            "vanilla",
+            "react",
+            "vue"
         ],
         "install": "npm install atropos",
         "github": "https://github.com/nolimits4web/atropos/",
@@ -163,13 +171,230 @@
         ]
     },
     {
+        "name": "directory-serve",
+        "sort": [
+            "node"
+        ],
+        "install": "npm install -g directory-serve",
+        "github": "https://github.com/cube-root/directory-serve",
+        "homepage": "https://github.com/cube-root/directory-serve",
+        "brief": "静态文件服务器, 支持上传下载扫码访问等",
+        "desc": "CLI tool to send and receive file on a network to a server",
+        "keywords": [
+            "cli",
+            "server",
+            "file",
+            "directory",
+            "static",
+            "upload",
+            "文件服务"
+        ]
+    },
+    {
+        "name": "chartist",
+        "sort": [
+            "vanilla",
+            "react",
+            "vue"
+        ],
+        "install": "npm install chartist",
+        "github": "https://github.com/chartist-js/chartist#readme",
+        "homepage": "https://gionkunz.github.io/chartist-js/",
+        "brief": "基于svg的简单图表库",
+        "desc": "Simple responsive charts",
+        "keywords": [
+            "chart",
+            "svg",
+            "图表"
+        ]
+    },
+    {
+        "name": "sigma",
+        "sort": [
+            "vanilla",
+            "react",
+            "vue"
+        ],
+        "install": "npm install sigma",
+        "github": "https://github.com/jacomyal/sigma.js",
+        "homepage": "https://www.sigmajs.org/",
+        "brief": "处理图形渲染和交互",
+        "desc": "A JavaScript library aimed at visualizing graphs of thousands of nodes and edges",
+        "keywords": [
+            "dataviz",
+            "graph",
+            "图表",
+            "节点"
+        ]
+    },
+    {
+        "name": "graphology",
+        "sort": [
+            "vanilla",
+            "react",
+            "vue"
+        ],
+        "install": "npm install graphology",
+        "github": "https://github.com/graphology/graphology",
+        "homepage": "https://graphology.github.io/",
+        "brief": "处理图形数据模型和算法",
+        "desc": "A robust & multipurpose Graph object for JavaScript & TypeScript.",
+        "keywords": [
+            "dataviz",
+            "graph",
+            "图表",
+            "节点"
+        ]
+    },
+    {
+        "name": "@electron-forge/cli",
+        "sort": [
+            "vanilla"
+        ],
+        "install": "npm install -g @electron-forge/cli",
+        "github": "https://github.com/electron/forge",
+        "homepage": "https://www.electronforge.io/",
+        "brief": "electron 打包/构建 工具",
+        "desc": "A complete tool for building and publishing Electron applications",
+        "keywords": [
+            "electron"
+        ]
+    },
+    {
+        "name": "react-toastify",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install react-toastify",
+        "github": "https://github.com/fkhadra/react-toastify",
+        "homepage": "https://fkhadra.github.io/react-toastify/introduction/",
+        "brief": "react 通知库",
+        "desc": "React notification made easy \uD83D\uDE80 !",
+        "keywords": [
+            "react",
+            "notification",
+            "toast",
+            "通知"
+        ]
+    },
+    {
+        "name": "vanilla-tilt",
+        "sort": [
+            "vanilla",
+            "react",
+            "vue"
+        ],
+        "install": "npm install vanilla-tilt",
+        "github": "https://github.com/micku7zu/vanilla-tilt.js",
+        "homepage": "https://micku7zu.github.io/vanilla-tilt.js/",
+        "brief": "3D 旋转交互",
+        "desc": "A smooth 3D tilt javascript library.",
+        "keywords": [
+            "3D",
+            "旋转",
+            "交互"
+        ]
+    },
+    {
+        "name": "react-hook-form",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install react-hook-form",
+        "github": "https://github.com/react-hook-form/react-hook-form",
+        "homepage": "https://react-hook-form.com/get-started/",
+        "brief": "react 表单(方便校验)",
+        "desc": "\uD83D\uDCCB React Hooks for form state management and validation (Web + React Native)",
+        "keywords": [
+            "react",
+            "form",
+            "validation"
+        ]
+    },
+    {
+        "name": "recharts",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install recharts",
+        "github": "https://github.com/recharts/recharts",
+        "homepage": "https://recharts.org/en-US/",
+        "brief": "基于D3的react图表库",
+        "desc": "Redefined chart library built with React and D3",
+        "keywords": [
+            "react",
+            "chart",
+            "d3",
+            "图表"
+        ]
+    },
+    {
+        "name": "react-beautiful-dnd",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install react-beautiful-dnd",
+        "github": "https://github.com/atlassian/react-beautiful-dnd",
+        "homepage": "https://react-beautiful-dnd.netlify.app/",
+        "brief": "react 拖拽库",
+        "desc": "Beautiful and accessible drag and drop for lists with React",
+        "keywords": [
+            "dnd",
+            "drag",
+            "drag-and-drop",
+            "react",
+            "拖拽"
+        ]
+    },
+    {
+        "name": "framer-motion",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install framer-motion",
+        "github": "https://github.com/framer/motion",
+        "homepage": "https://www.framer.com/motion/",
+        "brief": "react动画库",
+        "desc": "Open source, production-ready animation and gesture library for React",
+        "keywords": [
+            "animation",
+            "动画"
+        ]
+    },
+    {
         "name": "",
-        "sort": [],
+        "sort": [
+        ],
         "install": "",
         "github": "",
         "homepage": "",
         "brief": "",
         "desc": "",
-        "keywords": []
+        "keywords": [
+        ]
+    },
+    {
+        "name": "",
+        "sort": [
+        ],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": [
+        ]
+    },
+    {
+        "name": "",
+        "sort": [
+        ],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": [
+        ]
     }
 ]
