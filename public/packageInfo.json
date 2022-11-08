@@ -362,15 +362,18 @@
         ]
     },
     {
-        "name": "",
+        "name": "@iamtraction/google-translate",
         "sort": [
+            "node"
         ],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
+        "install": "npm install @iamtraction/google-translate",
+        "github": "https://github.com/iamtraction/google-translate",
+        "homepage": "https://www.npmjs.com/package/@iamtraction/google-translate",
+        "brief": "谷歌翻译API",
+        "desc": "A Node.JS library to consume Google Translate API for free.",
         "keywords": [
+            "translate",
+            "翻译"
         ]
     },
     {
