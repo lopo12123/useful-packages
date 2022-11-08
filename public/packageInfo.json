@@ -369,7 +369,7 @@
         "install": "npm install @iamtraction/google-translate",
         "github": "https://github.com/iamtraction/google-translate",
         "homepage": "https://www.npmjs.com/package/@iamtraction/google-translate",
-        "brief": "谷歌翻译API",
+        "brief": "谷歌翻译API, 似乎没用?",
         "desc": "A Node.JS library to consume Google Translate API for free.",
         "keywords": [
             "translate",
