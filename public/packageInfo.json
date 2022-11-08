@@ -377,15 +377,19 @@
         ]
     },
     {
-        "name": "",
+        "name": "react-native-vision-camera",
         "sort": [
+            "react"
         ],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
+        "install": "npm install react-native-vision-camera",
+        "github": "https://github.com/mrousavy/react-native-vision-camera",
+        "homepage": "https://mrousavy.com/react-native-vision-camera/",
+        "brief": "ReactNative 相机库",
+        "desc": "The Camera library that sees the vision.",
         "keywords": [
+            "react-native",
+            "camera",
+            "相机"
         ]
     },
     {
