@@ -493,15 +493,20 @@
         ]
     },
     {
-        "name": "",
+        "name": "@mui/material",
         "sort": [
+            "react"
         ],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
+        "install": "npm install @mui/material @emotion/react @emotion/styled",
+        "github": "https://github.com/mui/material-ui",
+        "homepage": "https://mui.com/",
+        "brief": "谷歌ui框架 mui",
+        "desc": "MUI Core: Ready-to-use foundational React components, free forever. It includes Material UI, which implements Google's Material Design.",
         "keywords": [
+            "google",
+            "ui",
+            "react",
+            "组件"
         ]
     },
     {
