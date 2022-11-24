@@ -428,51 +428,68 @@
         ]
     },
     {
-        "name": "",
+        "name": "react-spring",
         "sort": [
+            "react"
         ],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
+        "install": "npm install react-spring  # npm install @react-spring/web",
+        "github": "https://github.com/pmndrs/react-spring#readme",
+        "homepage": "https://react-spring.dev/",
+        "brief": "react动画库",
+        "desc": "A spring physics based React animation library",
         "keywords": [
+            "react",
+            "animation",
+            "动画"
         ]
     },
     {
-        "name": "",
+        "name": "react-modal",
         "sort": [
+            "react"
         ],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
+        "install": "npm install --save react-modal",
+        "github": "https://github.com/reactjs/react-modal",
+        "homepage": "http://reactcommunity.org/react-modal",
+        "brief": "react弹窗",
+        "desc": "Accessible modal dialog component for React",
         "keywords": [
+            "modal",
+            "dialog",
+            "react",
+            "弹窗"
         ]
     },
     {
-        "name": "",
+        "name": "react-toastify",
         "sort": [
+            "react"
         ],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
+        "install": "npm install --save react-toastify",
+        "github": "https://github.com/fkhadra/react-toastify#readme",
+        "homepage": "https://fkhadra.github.io/react-toastify/introduction/",
+        "brief": "raect消息提示 toast",
+        "desc": "React notification made easy",
         "keywords": [
+            "notification",
+            "toast",
+            "消息提示"
         ]
     },
     {
-        "name": "",
+        "name": "react-xmasonry",
         "sort": [
+            "react"
         ],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
+        "install": "npm install react-xmasonry",
+        "github": "https://github.com/ZitRos/react-xmasonry",
+        "homepage": "https://zitros.github.io/react-xmasonry",
+        "brief": "react瀑布流布局",
+        "desc": "Simple, minimalistic and featured native masonry layout for React JS.",
         "keywords": [
+            "布局",
+            "瀑布",
+            "masonry"
         ]
     },
     {
