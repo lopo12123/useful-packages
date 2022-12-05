@@ -510,6 +510,51 @@
         ]
     },
     {
+        "name": "trix",
+        "sort": [
+            "vanilla",
+            "react",
+            "vue"
+        ],
+        "install": "npm install trix",
+        "github": "https://github.com/basecamp/trix",
+        "homepage": "https://trix-editor.org/",
+        "brief": "富文本编辑器",
+        "desc": "A rich text editor for everyday writing",
+        "keywords": [
+            "WYSIWYG",
+            "editor",
+            "富文本编辑器",
+            "编辑器"
+        ]
+    },
+    {
+        "name": "react-tooltip",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install react-tooltip",
+        "github": "https://github.com/ReactTooltip/react-tooltip",
+        "homepage": "https://reacttooltip.github.io/react-tooltip/",
+        "brief": "react tooltip 组件, 使用 data-* 方式添加",
+        "desc": "react tooltip component",
+        "keywords": [
+            "tooltip"
+        ]
+    },
+    {
+        "name": "",
+        "sort": [
+        ],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": [
+        ]
+    },
+    {
         "name": "",
         "sort": [
         ],
