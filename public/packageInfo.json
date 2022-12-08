@@ -559,6 +559,151 @@
         ]
     },
     {
+        "name": "react-just-parallax",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install react-just-parallax",
+        "github": "https://github.com/michalzalobny/react-just-parallax",
+        "homepage": "https://react-just-parallax.michalzalobny.com/",
+        "brief": "react 滚动视差组件",
+        "desc": "React library for scroll and mousemove parallax effect ✨ Open source, production-ready",
+        "keywords": [
+            "滚动视差",
+            "视差"
+        ]
+    },
+    {
+        "name": "react-native-bootsplash",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install --save react-native-bootsplash",
+        "github": "https://github.com/zoontek/react-native-bootsplash",
+        "homepage": "https://github.com/zoontek/react-native-bootsplash",
+        "brief": "react-native splash页",
+        "desc": "\uD83D\uDE80 Show a splash screen during app startup. Hide it when you are ready.",
+        "keywords": [
+            "react",
+            "react-native",
+            "splash"
+        ]
+    },
+    {
+        "name": "react-chrono",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install react-chrono",
+        "github": "https://github.com/prabhuignoto/react-chrono",
+        "homepage": "https://react-chrono.prabhumurthy.com/",
+        "brief": "react 时间轴组件",
+        "desc": "\uD83D\uDD5C Modern Timeline Component for React",
+        "keywords": [
+            "slide",
+            "timeline",
+            "时间轴"
+        ]
+    },
+    {
+        "name": "@anatoliygatt/heart-switch",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install @anatoliygatt/heart-switch @emotion/react @emotion/styled",
+        "github": "https://github.com/anatoliygatt/heart-switch",
+        "homepage": "https://heart-switch.netlify.app/?path=/story/heartswitch--playground",
+        "brief": "心形开关组件",
+        "desc": "❤️ A heart-shaped toggle switch component for React.",
+        "keywords": [
+            "switch",
+            "开关"
+        ]
+    },
+    {
+        "name": "polaris-viz",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install @shopify/polaris-viz",
+        "github": "https://github.com/Shopify/polaris-viz",
+        "homepage": "https://polaris-viz.shopify.com/?path=/story/intro--page",
+        "brief": "Shopify 的数据可视化系统",
+        "desc": "A collection of React and React native components that compose Shopify's data visualization system",
+        "keywords": [
+            "图像",
+            "可视化"
+        ]
+    },
+    {
+        "name": "@a2000/xxx",
+        "sort": [
+            "react"
+        ],
+        "install": "@a2000/xxx",
+        "github": "https://github.com/andrico1234/a2k",
+        "homepage": "https://a2000.netlify.app/",
+        "brief": "win95风格的react组件",
+        "desc": "Capture the feel of the early web with A2k, the Windows2000 inspired web component library",
+        "keywords": [
+            "win95",
+            "ui",
+            "react"
+        ]
+    },
+    {
+        "name": "react95",
+        "sort": [
+            "react"
+        ],
+        "install": "npm install react95 styled-components",
+        "github": "https://github.com/react95-io/React95",
+        "homepage": "https://react95.io/",
+        "brief": "win95风格的react组件",
+        "desc": "\uD83C\uDF08\uD83D\uDD79 Windows 95 style UI component library for React",
+        "keywords": [
+            "win95",
+            "ui",
+            "react"
+        ]
+    },
+    {
+        "name": "",
+        "sort": [
+        ],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": [
+        ]
+    },
+    {
+        "name": "",
+        "sort": [
+        ],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": [
+        ]
+    },
+    {
+        "name": "",
+        "sort": [
+        ],
+        "install": "",
+        "github": "",
+        "homepage": "",
+        "brief": "",
+        "desc": "",
+        "keywords": [
+        ]
+    },
+    {
         "name": "",
         "sort": [
         ],
