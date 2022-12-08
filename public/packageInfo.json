@@ -543,15 +543,19 @@
         ]
     },
     {
-        "name": "",
+        "name": "@devbookhq/splitter",
         "sort": [
+            "react"
         ],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
+        "install": "npm install @devbookhq/splitter",
+        "github": "https://github.com/devbookhq/splitter",
+        "homepage": "https://www.usedevbook.com/",
+        "brief": "react组件, 可拆分窗口",
+        "desc": "React component for building split views like in VS Code",
         "keywords": [
+            "react",
+            "resize",
+            "split"
         ]
     },
     {
