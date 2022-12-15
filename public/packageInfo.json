@@ -670,13 +670,16 @@
     {
         "name": "",
         "sort": [
+            "vanilla"
         ],
-        "install": "",
-        "github": "",
-        "homepage": "",
-        "brief": "",
-        "desc": "",
+        "install": "npm install @emoji-mart/data",
+        "github": "https://github.com/missive/emoji-mart",
+        "homepage": "https://missiveapp.com/open/emoji-mart",
+        "brief": "emoji选择器",
+        "desc": "\uD83C\uDFEA One component to pick them all\n\n",
         "keywords": [
+            "emoji",
+            "表情"
         ]
     },
     {
